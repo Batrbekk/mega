@@ -37,7 +37,7 @@ export const Footer = () => {
     <div className="bg-[#050F20] p-20 mt-36 flex flex-col">
       <div className="flex items-start justify-between">
         <div>
-          <p className="font-[Inter,sans-serif] text-[70px] text-white font-semibold">Попробуй прямо сейчас. <br/> Выбери свое решение.</p>
+          <p className="font-[Inter,sans-serif] text-[70px] text-white font-semibold leading-[110%]">Попробуй прямо сейчас. <br/> Выбери свое решение.</p>
           <p className="font-[Inter,sans-serif] text-[20px] text-white font-light">Оставьте заявку или позвоните, и мы сами всё за вас заполним.</p>
         </div>
         <button className="text-[#050F20] text-[22px] font-[Inter,sans-serif] px-24 py-9 rounded-full bg-white">
@@ -46,14 +46,14 @@ export const Footer = () => {
       </div>
       <div className="mt-[92px] flex justify-between items-end">
         <div className="flex items-end gap-x-[35px]">
-          <p className="text-[#C0C0C0] text-sm font-[Inter,sans-serif] max-w-[126px]">
+          <p className="text-[#C0C0C0] text-sm font-[Inter,sans-serif] max-w-[126px] leading-[110%]">
             Санкт-Петербург
             пр. Энергетиков д.30 к.8
           </p>
           {cities.map((item) => (
             <div>
-              <p className="text-[#C0C0C0] text-sm font-[Inter,sans-serif]">{item.city}</p>
-              <p className="text-white text-[22px] font-[Inter,sans-serif]">{item.phone}</p>
+              <p className="text-[#C0C0C0] text-sm font-[Inter,sans-serif] leading-[140%]">{item.city}</p>
+              <p className="text-white text-[22px] font-[Inter,sans-serif] leading-[140%]">{item.phone}</p>
             </div>
           ))}
         </div>

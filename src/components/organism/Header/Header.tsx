@@ -47,17 +47,15 @@ export const Header = () => {
 
   return (
     <div className="px-16 py-4 flex items-center justify-center relative">
-      <div className="w-1/3">
-        <img src="/assets/lightLogo.svg" alt="logo" />
-      </div>
-      <div className="flex items-center justify-center gap-x-9 w-1/3">
+      <img src="/assets/lightLogo.svg" alt="logo" className="mr-auto" />
+      <div className="flex items-center justify-center gap-x-9 ">
         {links.map((item) => (
           <a href={item.href} className="text-[#050F20] text-base font-[Inter,sans-serif] font-normal hover:underline">{ item.label }</a>
         ))}
       </div>
       <div className="flex items-center justify-end gap-x-6 w-1/3">
         <div className={`${styles.dropdown} flex items-center gap-x-2 cursor-pointer`}>
-          <p>Спецификация</p>
+          <p className="text-[rgba(0,0,0,0.50)] text-sm tracking-[.14px]">Спецификация</p>
           <div>
             <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
               <path d="M1 8L5 12L9 8" stroke="black" strokeOpacity="0.5" strokeWidth="1.5"/>

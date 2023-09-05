@@ -8,7 +8,7 @@ export const Headline = () => {
   return (
     <>
       <div className="pt-44 pb-28">
-        <p className="text-[#0E1116] text-[5rem] text-center font-semibold font-[Inter,sans-serif]">Mega — новая эпоха для лучших <br/> охранных компаний</p>
+        <p className="text-[#0E1116] text-[5rem] text-center font-semibold font-[Inter,sans-serif] leading-[110%] tracking-[-.8px]">Mega — новая эпоха для лучших <br/> охранных компаний</p>
       </div>
       <div className="flex justify-center pb-20 leading-[110%]">
         <img src="/assets/mega.png" alt="mega-img" />

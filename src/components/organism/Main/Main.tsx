@@ -61,7 +61,7 @@ export const Main = () => {
 
   return (
     <div className="pt-20 px-20">
-      <p className="text-[#050F20] text-[5rem] font-[Inter,sans-serif] font-semibold h-full max-h-[772px]">
+      <p className="text-[#050F20] text-[5rem] font-[Inter,sans-serif] font-semibold h-full max-h-[772px] leading-[110%]">
         Выбери свою Mega - новая <br/>
         линейка оборудования <br/>
         во вселенной RITM.
